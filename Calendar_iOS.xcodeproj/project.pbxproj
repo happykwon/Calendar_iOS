@@ -13,6 +13,8 @@
 		E64584B12BD10E63006B6D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64584B02BD10E63006B6D1F /* Preview Assets.xcassets */; };
 		E64584C02BD113C3006B6D1F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584BF2BD113C3006B6D1F /* Model.swift */; };
 		E64584C22BD113EB006B6D1F /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C12BD113EB006B6D1F /* EventManager.swift */; };
+		E64584C42BD1144D006B6D1F /* Date +.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C32BD1144D006B6D1F /* Date +.swift */; };
+		E64584C62BD1146D006B6D1F /* DateFormatter +.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C52BD1146D006B6D1F /* DateFormatter +.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E64584B02BD10E63006B6D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E64584BF2BD113C3006B6D1F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E64584C12BD113EB006B6D1F /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		E64584C32BD1144D006B6D1F /* Date +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date +.swift"; sourceTree = "<group>"; };
+		E64584C52BD1146D006B6D1F /* DateFormatter +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter +.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		E64584BD2BD113AB006B6D1F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E64584C32BD1144D006B6D1F /* Date +.swift */,
+				E64584C52BD1146D006B6D1F /* DateFormatter +.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -191,8 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64584C42BD1144D006B6D1F /* Date +.swift in Sources */,
 				E64584C02BD113C3006B6D1F /* Model.swift in Sources */,
 				E64584AC2BD10E61006B6D1F /* ContentView.swift in Sources */,
+				E64584C62BD1146D006B6D1F /* DateFormatter +.swift in Sources */,
 				E64584C22BD113EB006B6D1F /* EventManager.swift in Sources */,
 				E64584AA2BD10E61006B6D1F /* Calendar_iOSApp.swift in Sources */,
 			);
