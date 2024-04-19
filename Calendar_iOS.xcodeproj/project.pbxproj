@@ -17,6 +17,7 @@
 		E64584C62BD1146D006B6D1F /* DateFormatter +.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C52BD1146D006B6D1F /* DateFormatter +.swift */; };
 		E64584C82BD209C3006B6D1F /* View +.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C72BD209C3006B6D1F /* View +.swift */; };
 		E64584CA2BD20A12006B6D1F /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584C92BD20A12006B6D1F /* NavigationBarModifier.swift */; };
+		E64584CC2BD20AE3006B6D1F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64584CB2BD20AE3006B6D1F /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E64584C52BD1146D006B6D1F /* DateFormatter +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter +.swift"; sourceTree = "<group>"; };
 		E64584C72BD209C3006B6D1F /* View +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View +.swift"; sourceTree = "<group>"; };
 		E64584C92BD20A12006B6D1F /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		E64584CB2BD20AE3006B6D1F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,6 @@
 				E64584BB2BD1139F006B6D1F /* ViewModel */,
 				E64584BA2BD11396006B6D1F /* Modifier */,
 				E64584A92BD10E61006B6D1F /* Calendar_iOSApp.swift */,
-				E64584AB2BD10E61006B6D1F /* ContentView.swift */,
 				E64584AF2BD10E63006B6D1F /* Preview Content */,
 			);
 			path = Calendar_iOS;
@@ -110,6 +111,8 @@
 		E64584BC2BD113A2006B6D1F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E64584AB2BD10E61006B6D1F /* ContentView.swift */,
+				E64584CB2BD20AE3006B6D1F /* CalendarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				E64584AC2BD10E61006B6D1F /* ContentView.swift in Sources */,
 				E64584C82BD209C3006B6D1F /* View +.swift in Sources */,
 				E64584C62BD1146D006B6D1F /* DateFormatter +.swift in Sources */,
+				E64584CC2BD20AE3006B6D1F /* CalendarView.swift in Sources */,
 				E64584CA2BD20A12006B6D1F /* NavigationBarModifier.swift in Sources */,
 				E64584C22BD113EB006B6D1F /* EventManager.swift in Sources */,
 				E64584AA2BD10E61006B6D1F /* Calendar_iOSApp.swift in Sources */,
