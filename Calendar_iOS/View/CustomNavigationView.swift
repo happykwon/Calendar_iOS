@@ -9,11 +9,11 @@ import SwiftUI
 struct CustomNavigationView<Content: View>: View {
     @ViewBuilder var content: Content
     private var date = Date()
-
+    
     init(@ViewBuilder content: () -> Content) {
         self.content = content()
     }
-
+    
     var body: some View {
         VStack(spacing: 0) {
             NavigationView {
@@ -26,13 +26,23 @@ struct CustomNavigationView<Content: View>: View {
                             }
                             .foregroundColor(.white)
                         }
-
+                        
                         ToolbarItem(placement: .navigationBarTrailing) {
-                            Button(action: {
-                                // 메뉴 버튼의 액션
-                            }) {
-                                Image(systemName: "line.horizontal.3")
-                                    .foregroundColor(.white)
+                            HStack {
+                                Button(action: {
+                                    // 메뉴 버튼의 액션
+                                }) {
+                                    
+                                    Image(systemName: "line.horizontal.3")
+                                        .foregroundColor(.white)
+                                }
+                                Button(action: {
+                                    // 메뉴 버튼의 액션
+                                }) {
+                                    
+                                    Image(systemName: "line.horizontal.3")
+                                        .foregroundColor(.white)
+                                }
                             }
                         }
                     }

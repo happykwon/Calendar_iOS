@@ -8,12 +8,16 @@
 import Foundation
 import SwiftUI
 
-struct DateValue: Identifiable {
+struct DateValue: Identifiable, Hashable {
     let id = UUID()
     let day: Int
     let date: Date
     let title: String
     let color: Color
+    
+    func hash(into hasher: inout Hasher) {
+           hasher.combine(id)
+       }
 }
 
 struct Event: Identifiable  {
